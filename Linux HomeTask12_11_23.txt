@@ -1,0 +1,17 @@
+localhost:/usr/bin# history
+   0  ls -l
+   1 touch .testing ; ls -l
+   2 cd / ; ls -l
+   3 ls -la
+   4 cd ; ls -la
+   5 cp /root/.testing /usr/bin/
+   6 mkdir /root/my_user
+   7 mv /opt/temu/ /root/my_user/
+   8 rm -r /opt/
+   9 ls -a
+  10 cd /root/my_user/
+  11 ls -l
+  12 cd
+  13 cd /usr/bin/
+  14 ls -a
+  15 history
