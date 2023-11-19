@@ -1,0 +1,18 @@
+0 ls -la
+   1 mkdir -p /home/user/start/
+   2 echo "Start" > /home/user/start/
+   3 echo "Start" > /home/user/start/1.txt
+   4 date +'%D' >> /home/user/start/1.txt
+   5  mkdir -p  /opt/task/
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 cat /opt/task/start.txt
+   8 ls -la | tail -4 >> /opt/task/start.txt ; cat /opt/task/start.txt
+   9 mkdir -p /tmp/testnew/ ; cp /opt/task /tmp/testnew/
+  10 mkdir -p /tmp/testnew/ ; cp /opt/task/ /tmp/testnew/
+  11 cat /opt/task/start.txt
+  12 mkdir -p /tmp/testnew/ ; cp /opt/task/* /tmp/testnew/
+  13 cat readme.txt >> /tmp/testnew/start.txt ; cat /tmp/testnew/start.txt
+  14 rm -r /opt/task/
+  15 cd /opt/
+  16 tree
+  17 history >htasklinux_161123
