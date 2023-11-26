@@ -1,0 +1,9 @@
+0 vi /opt/file.txt
+   1 df -h | head -3 >> /opt/file.txt
+   2 cat /opt/file.txt
+   3 chmod u-r,g+w,o+x /opt/file.txt
+   4 ls -la
+   5 cd /opt/
+   6 ls -la
+   7 history
+localhost:/opt#
