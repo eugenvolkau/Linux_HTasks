@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+mkdir -p /tmp/user
+for zeit in {1..10}
+        do
+        echo $i
+        date +'%HH:%MM:%SS'
+        cat /proc/sys/kernel/pid_max
+        sleep 0.5
+        done
+cat /proc/cpuinfo > /tmp/user/nesinf.txt
+cat /etc/os-release | head -1|awk '{print$"Name="Alpine Linux""}' >> /tmp/user/nesinf.txt
+cat /etc/os-release | head -1|awk '{print$"Alpine"}'>> /tmp/user/nesinf.txt
+	  for i in {50..100}
+        do
+        touch /tmp/user/$i.txt
+        done
